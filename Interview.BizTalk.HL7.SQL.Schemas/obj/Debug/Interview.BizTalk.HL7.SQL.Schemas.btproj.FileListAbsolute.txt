@@ -1,0 +1,8 @@
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.HL7.SQL.Schemas\bin\Debug\Interview.BizTalk.HL7.SQL.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.HL7.SQL.Schemas\bin\Debug\Interview.BizTalk.HL7.SQL.Schemas.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.HL7.SQL.Schemas\obj\Debug\Interview.BizTalk.HL7.SQL.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.HL7.SQL.Schemas\obj\Debug\Interview.BizTalk.HL7.SQL.Schemas.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.HL7.SQL.Schemas\bin\Debug\Interview.BizTalk.HL7.SQL.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.HL7.SQL.Schemas\bin\Debug\Interview.BizTalk.HL7.SQL.Schemas.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.HL7.SQL.Schemas\obj\Debug\Interview.BizTalk.HL7.SQL.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.HL7.SQL.Schemas\obj\Debug\Interview.BizTalk.HL7.SQL.Schemas.pdb

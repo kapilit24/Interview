@@ -1,0 +1,7 @@
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\BTAHL7V25Common Project1.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\BTAHL7V25Common Project1.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\Microsoft.BizTalk.TestTools.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\obj\Debug\BTAHL7V25Common Project1.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\obj\Debug\BTAHL7V25Common Project1.pdb

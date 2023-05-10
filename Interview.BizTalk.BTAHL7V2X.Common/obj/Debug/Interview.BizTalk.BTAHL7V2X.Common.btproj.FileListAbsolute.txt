@@ -1,0 +1,16 @@
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Interview.BizTalk.BTAHL7V2X.Common.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Interview.BizTalk.BTAHL7V2X.Common.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Microsoft.BizTalk.TestTools.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Microsoft.Solutions.BTAHL7.HL7Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V2X.Common\obj\Debug\Interview.BizTalk.BTAHL7V2X.Common.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V2X.Common\obj\Debug\Interview.BizTalk.BTAHL7V2X.Common.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Interview.BizTalk.BTAHL7V2X.Common.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Interview.BizTalk.BTAHL7V2X.Common.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Microsoft.BizTalk.TestTools.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Microsoft.Solutions.BTAHL7.HL7Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V2X.Common\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V2X.Common\obj\Debug\Interview.BizTalk.BTAHL7V2X.Common.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V2X.Common\obj\Debug\Interview.BizTalk.BTAHL7V2X.Common.pdb

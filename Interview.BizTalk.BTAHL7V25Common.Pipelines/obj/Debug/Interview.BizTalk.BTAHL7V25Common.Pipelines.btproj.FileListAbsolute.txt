@@ -1,0 +1,12 @@
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Pipelines\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Pipelines.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Pipelines\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Pipelines.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Pipelines\bin\Debug\Microsoft.Solutions.BTAHL7.HL72fDasm.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Pipelines\bin\Debug\Microsoft.Solutions.BTAHL7.HL72XmlDasm.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Pipelines\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Pipelines.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Pipelines\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Pipelines.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Pipelines\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Pipelines.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Pipelines\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Pipelines.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Pipelines\bin\Debug\Microsoft.Solutions.BTAHL7.HL72fDasm.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Pipelines\bin\Debug\Microsoft.Solutions.BTAHL7.HL72XmlDasm.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Pipelines\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Pipelines.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Pipelines\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Pipelines.pdb

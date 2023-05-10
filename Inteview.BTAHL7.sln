@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.BizTalk.ADT.Common.Orchestrations", "Interview.BizTalk.ADT.Common.Orchestrations\Interview.BizTalk.ADT.Common.Orchestrations.btproj", "{105ED11C-EED8-45F5-BEA7-FF2F7C8C32D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.BizTalk.BTAHL7V25Common.Pipelines", "Interview.BizTalk.BTAHL7V25Common.Pipelines\Interview.BizTalk.BTAHL7V25Common.Pipelines.btproj", "{B7811BE1-BD72-4F82-A7DD-708DFA7B032F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.BizTalk.BTAHL7V2X.Common", "Interview.BizTalk.BTAHL7V2X.Common\Interview.BizTalk.BTAHL7V2X.Common.btproj", "{8D886BD2-60C5-4DDE-A4D2-E201F243748D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.BizTalk.HL7.SQL.Schemas", "Interview.BizTalk.HL7.SQL.Schemas\Interview.BizTalk.HL7.SQL.Schemas.btproj", "{5DAC44FC-101B-47DC-A2AC-8802EFD092E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.BizTalk.BTAHL7V25Common.Schemas", "Interview.BizTalk.BTAHL7V25Common.Schemas\Interview.BizTalk.BTAHL7V25Common.Schemas.btproj", "{524F4372-BE73-479B-BD91-E006C12B9B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.BizTalk.ADT.Common.Schemas", "Interview.BizTalk.ADT.Common.Schemas\Interview.BizTalk.ADT.Common.Schemas.btproj", "{4E864F57-A6A5-4A97-830C-79D12B2EC764}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{CC72927E-1353-45C4-9024-51567CA79514}"
+	ProjectSection(SolutionItems) = preProject
+		Misc\ADT04_HL7Test_Corrected_File.txt = Misc\ADT04_HL7Test_Corrected_File.txt
+		Misc\ADT04_HL7Test_Error_File_From_Net.txt = Misc\ADT04_HL7Test_Error_File_From_Net.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{7EC8445A-7922-4E5E-AB16-0D181A44337B}"
+	ProjectSection(SolutionItems) = preProject
+		SQL\Interview_SQL_Objects.sql = SQL\Interview_SQL_Objects.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libraries", "External Libraries", "{E2E833C9-7BAC-416E-8683-AA5A63234882}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Key", "Key", "{ECCF373E-3EFA-4937-975C-243FC019CC87}"
+	ProjectSection(SolutionItems) = preProject
+		Interview.BizTalk.HL7.SQL.Schemas\HL7Key.snk = Interview.BizTalk.HL7.SQL.Schemas\HL7Key.snk
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{105ED11C-EED8-45F5-BEA7-FF2F7C8C32D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105ED11C-EED8-45F5-BEA7-FF2F7C8C32D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105ED11C-EED8-45F5-BEA7-FF2F7C8C32D6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{105ED11C-EED8-45F5-BEA7-FF2F7C8C32D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105ED11C-EED8-45F5-BEA7-FF2F7C8C32D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105ED11C-EED8-45F5-BEA7-FF2F7C8C32D6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B7811BE1-BD72-4F82-A7DD-708DFA7B032F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7811BE1-BD72-4F82-A7DD-708DFA7B032F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7811BE1-BD72-4F82-A7DD-708DFA7B032F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B7811BE1-BD72-4F82-A7DD-708DFA7B032F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7811BE1-BD72-4F82-A7DD-708DFA7B032F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7811BE1-BD72-4F82-A7DD-708DFA7B032F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8D886BD2-60C5-4DDE-A4D2-E201F243748D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D886BD2-60C5-4DDE-A4D2-E201F243748D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D886BD2-60C5-4DDE-A4D2-E201F243748D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8D886BD2-60C5-4DDE-A4D2-E201F243748D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D886BD2-60C5-4DDE-A4D2-E201F243748D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D886BD2-60C5-4DDE-A4D2-E201F243748D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5DAC44FC-101B-47DC-A2AC-8802EFD092E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAC44FC-101B-47DC-A2AC-8802EFD092E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAC44FC-101B-47DC-A2AC-8802EFD092E3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5DAC44FC-101B-47DC-A2AC-8802EFD092E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAC44FC-101B-47DC-A2AC-8802EFD092E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAC44FC-101B-47DC-A2AC-8802EFD092E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{524F4372-BE73-479B-BD91-E006C12B9B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524F4372-BE73-479B-BD91-E006C12B9B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524F4372-BE73-479B-BD91-E006C12B9B83}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{524F4372-BE73-479B-BD91-E006C12B9B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524F4372-BE73-479B-BD91-E006C12B9B83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524F4372-BE73-479B-BD91-E006C12B9B83}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4E864F57-A6A5-4A97-830C-79D12B2EC764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E864F57-A6A5-4A97-830C-79D12B2EC764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E864F57-A6A5-4A97-830C-79D12B2EC764}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4E864F57-A6A5-4A97-830C-79D12B2EC764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E864F57-A6A5-4A97-830C-79D12B2EC764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E864F57-A6A5-4A97-830C-79D12B2EC764}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

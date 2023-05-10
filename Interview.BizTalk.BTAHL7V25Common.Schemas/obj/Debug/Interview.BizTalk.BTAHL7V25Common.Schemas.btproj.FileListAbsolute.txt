@@ -1,0 +1,21 @@
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\Microsoft.BizTalk.TestTools.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\BTAHL7V25Common Project1\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Microsoft.BizTalk.TestTools.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Schemas\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\BTAHL7 Project1\Interview.BizTalk.BTAHL7V25Common.Schemas\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.pdb
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Microsoft.BizTalk.Pipeline.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Microsoft.BizTalk.TestTools.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Schemas\bin\Debug\Microsoft.XLANGs.BaseTypes.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Schemas\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.dll
+C:\Kapil\Technical\RD Projects\BTSTest\Inteview.BTAHL7\Interview.BizTalk.BTAHL7V25Common.Schemas\obj\Debug\Interview.BizTalk.BTAHL7V25Common.Schemas.pdb
