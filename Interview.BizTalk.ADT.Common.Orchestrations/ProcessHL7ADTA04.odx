@@ -1,0 +1,437 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="6895267b-b692-4f9c-bd89-a5b0130ca9e9" LowerBound="1.1" HigherBound="112.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="Interview.BizTalk.ADT.Common.Orchestrations" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="508cf91e-d879-4f32-ab5e-db578abb6487" ParentLink="Module_PortType" LowerBound="10.1" HigherBound="17.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_Receive_HL7" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="OperationDeclaration" OID="671d3489-3c02-4d05-bfec-0b44ee394192" ParentLink="PortType_OperationDeclaration" LowerBound="12.1" HigherBound="16.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_Receive" />
+                <om:Property Name="Signal" Value="True" />
+                <om:Element Type="MessageRef" OID="2d7478f1-5f4d-4245-a48c-e29d8aeed384" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="14.13" HigherBound="14.33">
+                    <om:Property Name="Ref" Value="Interview.BizTalk.ADT.Common.Orchestrations.MultipartType_ADTA04" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="d487c744-cd5e-499b-a288-77aba401ae37" ParentLink="Module_PortType" LowerBound="17.1" HigherBound="24.1">
+            <om:Property Name="Synchronous" Value="True" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_Send_HL7_SQL" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="OperationDeclaration" OID="047cec0a-3910-4650-a5c4-848b924be20c" ParentLink="PortType_OperationDeclaration" LowerBound="19.1" HigherBound="23.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="SP_BTS_SET_PATIENT_HL7" />
+                <om:Property Name="Signal" Value="True" />
+                <om:Element Type="MessageRef" OID="f408b5a6-22e4-431d-a0f8-da34e84fdd73" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="21.13" HigherBound="21.88">
+                    <om:Property Name="Ref" Value="Interview.BizTalk.HL7.SQL.Schemas.TypedProcedure_dbo.SP_BTS_SET_PATIENT_HL7" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="7223e7bf-4edb-490d-8696-f39dcd315485" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="21.90" HigherBound="21.173">
+                    <om:Property Name="Ref" Value="Interview.BizTalk.HL7.SQL.Schemas.TypedProcedure_dbo.SP_BTS_SET_PATIENT_HL7Response" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="f80b24c5-0998-40c9-95ec-2e3602a9f1e8" ParentLink="Module_MessageType" LowerBound="4.1" HigherBound="10.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="MultipartType_ADTA04" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="PartDeclaration" OID="8a5c3167-8ba2-42b1-acbd-6737a56e7eae" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="6.1" HigherBound="7.1">
+                <om:Property Name="ClassName" Value="BTAHL7Schemas.MSH_25_GLO_DEF" />
+                <om:Property Name="IsBodyPart" Value="False" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="MessagePart_MSH" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="PartDeclaration" OID="b16f6156-6db4-4d00-9a5f-1bd44fa67c3b" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="7.1" HigherBound="8.1">
+                <om:Property Name="ClassName" Value="BTAHL7Schemas.ADT_A04_25_GLO_DEF" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="MessagePart_Body" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="PartDeclaration" OID="8bce9421-9ccd-447d-a25e-b32bd2a27e9a" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="8.1" HigherBound="9.1">
+                <om:Property Name="ClassName" Value="System.String" />
+                <om:Property Name="IsBodyPart" Value="False" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="MessagePart_ZSegments" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="51a5a31e-931b-409f-b145-aa14bd9f94a8" ParentLink="Module_ServiceDeclaration" LowerBound="24.1" HigherBound="111.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="ProcessHL7ADTA04" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="VariableDeclaration" OID="344a55b3-cd67-44da-a974-adf250c340b0" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="35.1" HigherBound="36.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.String" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="varPatientId" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="72c0c29e-dd8d-41ea-b2cf-923dc14e2c0c" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="36.1" HigherBound="37.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.String" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="varMessageType" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="fe6fc8bd-49c7-4e9d-89a5-6652412c3da7" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="37.1" HigherBound="38.1">
+                <om:Property Name="UseDefaultConstructor" Value="True" />
+                <om:Property Name="Type" Value="System.Xml.XmlDocument" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="varMSH" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="dcf064f6-358a-4f08-9872-aa01bbacc73f" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="38.1" HigherBound="39.1">
+                <om:Property Name="UseDefaultConstructor" Value="True" />
+                <om:Property Name="Type" Value="System.Xml.XmlDocument" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="sqlXML" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="d5bb1534-906b-4599-804e-9a3b50a2f895" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="39.1" HigherBound="40.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.String" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="VarTriggerEvent" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="VariableDeclaration" OID="f36541ff-103f-4b28-bcd3-da6ea10a618c" ParentLink="ServiceDeclaration_VariableDeclaration" LowerBound="40.1" HigherBound="41.1">
+                <om:Property Name="UseDefaultConstructor" Value="False" />
+                <om:Property Name="Type" Value="System.String" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="varSQLReturnCode" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="93088eaa-945e-43c1-b4dd-246ffd0dd2a7" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="31.1" HigherBound="32.1">
+                <om:Property Name="Type" Value="Interview.BizTalk.ADT.Common.Orchestrations.MultipartType_ADTA04" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="msg_ADTA04HL7" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="f80710c0-08bf-4ba9-b588-a5c0261893cb" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="32.1" HigherBound="33.1">
+                <om:Property Name="Type" Value="Interview.BizTalk.HL7.SQL.Schemas.TypedProcedure_dbo.SP_BTS_SET_PATIENT_HL7" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="msg_SQLXML_Request" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="46d450dd-17a7-44e8-a68c-4e0fc91d605f" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="33.1" HigherBound="34.1">
+                <om:Property Name="Type" Value="BTAHL7Schemas.MSH_25_GLO_DEF" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="msg_MSH" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="b95e13ed-f9d9-4fcc-86ec-0607e478dd23" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="34.1" HigherBound="35.1">
+                <om:Property Name="Type" Value="Interview.BizTalk.HL7.SQL.Schemas.TypedProcedure_dbo.SP_BTS_SET_PATIENT_HL7Response" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="msg_SQLXML_Response" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="1a64e83a-3029-40ba-80e7-21a30e4861d5" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="Receive" OID="ca1069bb-3abc-4986-842c-da04c1b0acc9" ParentLink="ServiceBody_Statement" LowerBound="43.1" HigherBound="51.1">
+                    <om:Property Name="Activate" Value="True" />
+                    <om:Property Name="PortName" Value="Port_Receive_HL7" />
+                    <om:Property Name="MessageName" Value="msg_ADTA04HL7" />
+                    <om:Property Name="OperationName" Value="Operation_Receive" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Receive_HL7" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Scope" OID="3da0d329-4f5c-4368-9377-d15e698ca2e6" ParentLink="ServiceBody_Statement" LowerBound="51.1" HigherBound="109.1">
+                    <om:Property Name="InitializedTransactionType" Value="True" />
+                    <om:Property Name="IsSynchronized" Value="False" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Scope_HL7_2_SQL" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="Construct" OID="1a8802ce-24e6-43ea-87ba-b3dbeab813d7" ParentLink="ComplexStatement_Statement" LowerBound="56.1" HigherBound="67.1">
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Load_MSH" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="MessageAssignment" OID="f35277de-3830-47f3-bb22-29a3db4efe45" ParentLink="ComplexStatement_Statement" LowerBound="59.1" HigherBound="66.1">
+                            <om:Property Name="Expression" Value="msg_MSH=msg_ADTA04HL7.MessagePart_MSH;&#xD;&#xA;varMessageType=xpath(msg_MSH,&quot;string(/*[local-name()='MSH_25_GLO_DEF' and namespace-uri()='http://microsoft.com/HealthCare/HL7/2X']/*[local-name()='MSH' and namespace-uri()='']/*[local-name()='MSH.9_MessageType' and namespace-uri()='']/*[local-name()='CM_MSG.0_MessageType' and namespace-uri()=''])&quot;);&#xD;&#xA;VarTriggerEvent=xpath(msg_MSH,&quot;string(/*[local-name()='MSH_25_GLO_DEF' and namespace-uri()='http://microsoft.com/HealthCare/HL7/2X']/*[local-name()='MSH' and namespace-uri()='']/*[local-name()='MSH.9_MessageType' and namespace-uri()='']/*[local-name()='CM_MSG.1_TriggerEvent' and namespace-uri()=''])&quot;);&#xD;&#xA;varPatientId=msg_ADTA04HL7.MessagePart_Body.PID_PatientIdentification.PID_2_PatientId.CX_0_IdNumber;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
+                            <om:Property Name="ReportToAnalyst" Value="False" />
+                            <om:Property Name="Name" Value="Extract MSH Fields" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                        <om:Element Type="MessageRef" OID="4aa9e664-ba6a-485f-aa65-709a6a8a1b56" ParentLink="Construct_MessageRef" LowerBound="57.31" HigherBound="57.38">
+                            <om:Property Name="Ref" Value="msg_MSH" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="Construct" OID="05e6d46d-27d7-430b-8921-f4809a4f426c" ParentLink="ComplexStatement_Statement" LowerBound="67.1" HigherBound="79.1">
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="ConstructMessage_HL7_2_SQL" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="MessageAssignment" OID="c6ebd709-5e13-452b-b283-c5d88649d16d" ParentLink="ComplexStatement_Statement" LowerBound="70.1" HigherBound="78.1">
+                            <om:Property Name="Expression" Value="sqlXML.LoadXml(&quot;&lt;?xml version=\&quot;1.0\&quot;?&gt; &lt;ns0:SP_BTS_SET_PATIENT_HL7 xmlns:ns0=\&quot;http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo\&quot;&gt;&lt;ns0:Sending_Facility&gt;Sending_Facility&lt;/ns0:Sending_Facility&gt;&lt;ns0:Message_Type&gt;ADT&lt;/ns0:Message_Type&gt;&lt;ns0:Patient_ID&gt;1234&lt;/ns0:Patient_ID&gt;&lt;/ns0:SP_BTS_SET_PATIENT_HL7&gt;&quot;);&#xD;&#xA;msg_SQLXML_Request=sqlXML;&#xD;&#xA;msg_SQLXML_Request.Message_Type=varMessageType+&quot;_&quot;+VarTriggerEvent;&#xD;&#xA;msg_SQLXML_Request.Sending_Facility=xpath(msg_MSH,&quot;string(/*[local-name()='MSH_25_GLO_DEF' and namespace-uri()='http://microsoft.com/HealthCare/HL7/2X']/*[local-name()='MSH' and namespace-uri()='']/*[local-name()='MSH.4_SendingFacility' and namespace-uri()='']/*[local-name()='HD.0_NamespaceId' and namespace-uri()=''])&quot;);&#xD;&#xA;msg_SQLXML_Request.Patient_ID=varPatientId;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
+                            <om:Property Name="ReportToAnalyst" Value="False" />
+                            <om:Property Name="Name" Value="Build HL7 SQL" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                        <om:Element Type="MessageRef" OID="38a8ae76-b62e-4276-a6b1-fc932830bcdf" ParentLink="Construct_MessageRef" LowerBound="68.31" HigherBound="68.49">
+                            <om:Property Name="Ref" Value="msg_SQLXML_Request" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="Send" OID="932c20b0-6c58-4162-a895-0e4cfb59cb86" ParentLink="ComplexStatement_Statement" LowerBound="79.1" HigherBound="81.1">
+                        <om:Property Name="PortName" Value="Send_HL7_SQL" />
+                        <om:Property Name="MessageName" Value="msg_SQLXML_Request" />
+                        <om:Property Name="OperationName" Value="SP_BTS_SET_PATIENT_HL7" />
+                        <om:Property Name="OperationMessageName" Value="Request" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Send_HL7_SQL" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Receive" OID="200290db-a3ea-4c75-bb48-607dde730ec2" ParentLink="ComplexStatement_Statement" LowerBound="81.1" HigherBound="83.1">
+                        <om:Property Name="Activate" Value="False" />
+                        <om:Property Name="PortName" Value="Send_HL7_SQL" />
+                        <om:Property Name="MessageName" Value="msg_SQLXML_Response" />
+                        <om:Property Name="OperationName" Value="SP_BTS_SET_PATIENT_HL7" />
+                        <om:Property Name="OperationMessageName" Value="Response" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Receive_HL7_SQL_Response" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="VariableAssignment" OID="09c6e2f5-e6d8-4747-aed5-01ee0a4bf550" ParentLink="ComplexStatement_Statement" LowerBound="83.1" HigherBound="85.1">
+                        <om:Property Name="Expression" Value="varSQLReturnCode=xpath(msg_SQLXML_Response,&quot;string(/*[local-name()='SP_BTS_SET_PATIENT_HL7Response' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo']/*[local-name()='ReturnValue' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo'])&quot;);" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Expression_1" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                    <om:Element Type="Decision" OID="f6bf41c8-cd8e-4e37-b16e-dac5d3e876b5" ParentLink="ComplexStatement_Statement" LowerBound="85.1" HigherBound="98.1">
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Decide_1" />
+                        <om:Property Name="Signal" Value="False" />
+                        <om:Element Type="DecisionBranch" OID="6df1e6d0-baaa-4863-963d-4b658a124d0a" ParentLink="ReallyComplexStatement_Branch" LowerBound="86.21" HigherBound="91.1">
+                            <om:Property Name="Expression" Value="varSQLReturnCode==&quot;0&quot;" />
+                            <om:Property Name="IsGhostBranch" Value="True" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Rule_1" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="VariableAssignment" OID="6366eba4-8c36-4148-baf4-b2b85ce72839" ParentLink="ComplexStatement_Statement" LowerBound="88.1" HigherBound="90.1">
+                                <om:Property Name="Expression" Value="System.Diagnostics.EventLog.WriteEntry(&quot;ADT A04&quot;,&quot;ADT values have been inserted into the database successfully.&quot;);" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Log_Success" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="DecisionBranch" OID="6d4a0b2e-88d0-4854-aad9-3593ba8a2b2e" ParentLink="ReallyComplexStatement_Branch">
+                            <om:Property Name="IsGhostBranch" Value="True" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Else" />
+                            <om:Property Name="Signal" Value="False" />
+                            <om:Element Type="VariableAssignment" OID="e6c1e5aa-853f-4627-9439-55f9dd0ff8f7" ParentLink="ComplexStatement_Statement" LowerBound="93.1" HigherBound="95.1">
+                                <om:Property Name="Expression" Value="System.Diagnostics.EventLog.WriteEntry(&quot;ADT A04&quot;,&quot;ADT values have not been inserted into the database and return code is&quot;+varSQLReturnCode);" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Log_Error" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                            <om:Element Type="Terminate" OID="a8bf6872-cce3-4346-a58c-c44198fe8b25" ParentLink="ComplexStatement_Statement" LowerBound="95.1" HigherBound="97.1">
+                                <om:Property Name="ErrorMessage" Value="&quot;ADT values have not been inserted into the database for patient id is &quot;+varPatientId;" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="Terminate_1" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="Catch" OID="fea3e558-261d-4fba-b46c-6b4748730bda" ParentLink="Scope_Catch" LowerBound="101.1" HigherBound="107.1">
+                        <om:Property Name="ExceptionName" Value="exHL7" />
+                        <om:Property Name="ExceptionType" Value="System.Exception" />
+                        <om:Property Name="IsFaultMessage" Value="False" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="CatchException_HL7_2_SQL" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="VariableAssignment" OID="39fc8acc-3ef2-4f55-915d-fbdd29be7379" ParentLink="Catch_Statement" LowerBound="104.1" HigherBound="106.1">
+                            <om:Property Name="Expression" Value="System.Diagnostics.EventLog.WriteEntry(&quot;ADT A04 Processing&quot;,exHL7.Message.ToString());" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Log_Error" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                    </om:Element>
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="4e7bacc1-f24f-4866-9eb6-63286ab57b04" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="27.1" HigherBound="29.1">
+                <om:Property Name="PortModifier" Value="Implements" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="-1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="Interview.BizTalk.ADT.Common.Orchestrations.PortType_Receive_HL7" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Port_Receive_HL7" />
+                <om:Property Name="Signal" Value="True" />
+                <om:Element Type="LogicalBindingAttribute" OID="922de572-df2b-4658-8be4-158ccf72849f" ParentLink="PortDeclaration_CLRAttribute" LowerBound="27.1" HigherBound="28.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="ff0fa056-498b-45a5-a00b-bad27103b323" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="29.1" HigherBound="31.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Right" />
+                <om:Property Name="PortIndex" Value="-1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="Interview.BizTalk.ADT.Common.Orchestrations.PortType_Send_HL7_SQL" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Send_HL7_SQL" />
+                <om:Property Name="Signal" Value="True" />
+                <om:Element Type="LogicalBindingAttribute" OID="cede2849-295b-4ff3-b04d-b1abce050652" ParentLink="PortDeclaration_CLRAttribute" LowerBound="29.1" HigherBound="30.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module Interview.BizTalk.ADT.Common.Orchestrations
+{
+    internal messagetype MultipartType_ADTA04
+    {
+        BTAHL7Schemas.MSH_25_GLO_DEF MessagePart_MSH;
+        body BTAHL7Schemas.ADT_A04_25_GLO_DEF MessagePart_Body;
+        System.String MessagePart_ZSegments;
+    };
+    internal porttype PortType_Receive_HL7
+    {
+        oneway Operation_Receive
+        {
+            MultipartType_ADTA04
+        };
+    };
+    internal porttype PortType_Send_HL7_SQL
+    {
+        requestresponse SP_BTS_SET_PATIENT_HL7
+        {
+            Interview.BizTalk.HL7.SQL.Schemas.TypedProcedure_dbo.SP_BTS_SET_PATIENT_HL7, Interview.BizTalk.HL7.SQL.Schemas.TypedProcedure_dbo.SP_BTS_SET_PATIENT_HL7Response
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service ProcessHL7ADTA04
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port implements PortType_Receive_HL7 Port_Receive_HL7;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses PortType_Send_HL7_SQL Send_HL7_SQL;
+        message MultipartType_ADTA04 msg_ADTA04HL7;
+        message Interview.BizTalk.HL7.SQL.Schemas.TypedProcedure_dbo.SP_BTS_SET_PATIENT_HL7 msg_SQLXML_Request;
+        message BTAHL7Schemas.MSH_25_GLO_DEF msg_MSH;
+        message Interview.BizTalk.HL7.SQL.Schemas.TypedProcedure_dbo.SP_BTS_SET_PATIENT_HL7Response msg_SQLXML_Response;
+        System.String varPatientId;
+        System.String varMessageType;
+        System.Xml.XmlDocument varMSH;
+        System.Xml.XmlDocument sqlXML;
+        System.String VarTriggerEvent;
+        System.String varSQLReturnCode;
+        body ()
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("ca1069bb-3abc-4986-842c-da04c1b0acc9")]
+            activate receive (Port_Receive_HL7.Operation_Receive, msg_ADTA04HL7);
+            varPatientId = "";
+            varMessageType = "";
+            varMSH = new System.Xml.XmlDocument();
+            sqlXML = new System.Xml.XmlDocument();
+            VarTriggerEvent = "";
+            varSQLReturnCode = "";
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("3da0d329-4f5c-4368-9377-d15e698ca2e6")]
+            scope
+            {
+                body
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("1a8802ce-24e6-43ea-87ba-b3dbeab813d7")]
+                    construct msg_MSH
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("f35277de-3830-47f3-bb22-29a3db4efe45")]
+                        msg_MSH=msg_ADTA04HL7.MessagePart_MSH;
+                        varMessageType=xpath(msg_MSH,"string(/*[local-name()='MSH_25_GLO_DEF' and namespace-uri()='http://microsoft.com/HealthCare/HL7/2X']/*[local-name()='MSH' and namespace-uri()='']/*[local-name()='MSH.9_MessageType' and namespace-uri()='']/*[local-name()='CM_MSG.0_MessageType' and namespace-uri()=''])");
+                        VarTriggerEvent=xpath(msg_MSH,"string(/*[local-name()='MSH_25_GLO_DEF' and namespace-uri()='http://microsoft.com/HealthCare/HL7/2X']/*[local-name()='MSH' and namespace-uri()='']/*[local-name()='MSH.9_MessageType' and namespace-uri()='']/*[local-name()='CM_MSG.1_TriggerEvent' and namespace-uri()=''])");
+                        varPatientId=msg_ADTA04HL7.MessagePart_Body.PID_PatientIdentification.PID_2_PatientId.CX_0_IdNumber;
+                        
+                        
+                    }
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("05e6d46d-27d7-430b-8921-f4809a4f426c")]
+                    construct msg_SQLXML_Request
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("c6ebd709-5e13-452b-b283-c5d88649d16d")]
+                        sqlXML.LoadXml("<?xml version=\"1.0\"?> <ns0:SP_BTS_SET_PATIENT_HL7 xmlns:ns0=\"http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo\"><ns0:Sending_Facility>Sending_Facility</ns0:Sending_Facility><ns0:Message_Type>ADT</ns0:Message_Type><ns0:Patient_ID>1234</ns0:Patient_ID></ns0:SP_BTS_SET_PATIENT_HL7>");
+                        msg_SQLXML_Request=sqlXML;
+                        msg_SQLXML_Request.Message_Type=varMessageType+"_"+VarTriggerEvent;
+                        msg_SQLXML_Request.Sending_Facility=xpath(msg_MSH,"string(/*[local-name()='MSH_25_GLO_DEF' and namespace-uri()='http://microsoft.com/HealthCare/HL7/2X']/*[local-name()='MSH' and namespace-uri()='']/*[local-name()='MSH.4_SendingFacility' and namespace-uri()='']/*[local-name()='HD.0_NamespaceId' and namespace-uri()=''])");
+                        msg_SQLXML_Request.Patient_ID=varPatientId;
+                        
+                        
+                    }
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("932c20b0-6c58-4162-a895-0e4cfb59cb86")]
+                    send (Send_HL7_SQL.SP_BTS_SET_PATIENT_HL7, msg_SQLXML_Request);
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("200290db-a3ea-4c75-bb48-607dde730ec2")]
+                    receive (Send_HL7_SQL.SP_BTS_SET_PATIENT_HL7, msg_SQLXML_Response);
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("09c6e2f5-e6d8-4747-aed5-01ee0a4bf550")]
+                    varSQLReturnCode=xpath(msg_SQLXML_Response,"string(/*[local-name()='SP_BTS_SET_PATIENT_HL7Response' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo']/*[local-name()='ReturnValue' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo'])");
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("f6bf41c8-cd8e-4e37-b16e-dac5d3e876b5")]
+                    if (varSQLReturnCode=="0")
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("6366eba4-8c36-4148-baf4-b2b85ce72839")]
+                        System.Diagnostics.EventLog.WriteEntry("ADT A04","ADT values have been inserted into the database successfully.");
+                    }
+                    else 
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("e6c1e5aa-853f-4627-9439-55f9dd0ff8f7")]
+                        System.Diagnostics.EventLog.WriteEntry("ADT A04","ADT values have not been inserted into the database and return code is"+varSQLReturnCode);
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("a8bf6872-cce3-4346-a58c-c44198fe8b25")]
+                        terminate "ADT values have not been inserted into the database for patient id is "+varPatientId;;
+                    }
+                }
+                exceptions
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("fea3e558-261d-4fba-b46c-6b4748730bda")]
+                    catch (System.Exception exHL7)
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("39fc8acc-3ef2-4f55-915d-fbdd29be7379")]
+                        System.Diagnostics.EventLog.WriteEntry("ADT A04 Processing",exHL7.Message.ToString());
+                    }
+                }
+            }
+        }
+    }
+}
+
